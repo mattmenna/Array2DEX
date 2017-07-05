@@ -17,5 +17,19 @@ public class Array2DEX {
             }
             System.out.println();
         }
+
+        int[][] numbers = {{1,2,4,6,7},
+                {4,6,8,9,12,45},
+                {56,55}};
+
+        int sum=0;
+        for (int row[]:numbers) {
+            for ( int column: row) {
+                sum+=column;
+            }
+        }
+
+        System.out.println("The sum is " + sum);
+
     }
 }
